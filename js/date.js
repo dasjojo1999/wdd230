@@ -1,1 +1,1 @@
-document.querySelector('#lastUpdate').innerHTML = 'Last Modified: ${document.lastModified}'
+document.querySelector('#lastUpdate').innerHTML = 'Last Updated: ${document.lastModified}'
