@@ -27,3 +27,9 @@ header img{
     width: 100%;
     height: auto;
 }
+span{
+    font-weight: 700;
+}
+#currentdate {
+    color:rgb(50,50,250,1);
+}
