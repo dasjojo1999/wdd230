@@ -13,7 +13,7 @@ header, main, footer {
     margin: 0 auto
 }
 
-header {
+header, footer {
     margin: 1rem auto;
     border: 1px solid #f0f8ff;
     padding: .4rem;
@@ -34,3 +34,4 @@ span{
 #currentdate {
     color:rgb(50,50,250,1);
 }
+
