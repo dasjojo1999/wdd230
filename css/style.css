@@ -14,10 +14,10 @@ header, main, footer {
 }
 
 header {
-    margin: 2rem auto;
-    border: 2px solid #f0f8ff;
-    padding: .6rem;
-    background-color: #000080;
+    margin: 1rem auto;
+    border: 1px solid #f0f8ff;
+    padding: .5rem;
+    background-color: #4acfee;
     display: grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
