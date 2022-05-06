@@ -9,14 +9,14 @@ body {
 }
 
 header, main, footer {
-    max-width: 800px;
+    max-width: 600px;
     margin: 0 auto
 }
 
 header {
     margin: 1rem auto;
     border: 1px solid #f0f8ff;
-    padding: .5rem;
+    padding: .4rem;
     background-color: #4acfee;
     display: grid;
     grid-template-columns: 200px 1fr;
