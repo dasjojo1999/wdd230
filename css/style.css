@@ -28,7 +28,7 @@ header {
     float: left;
 }
 #first-h1{
-    float: left;
+    margin: left;
 }
 span{
     font-weight: 700;
