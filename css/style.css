@@ -28,10 +28,12 @@ header, footer {
     float: left;
 }
 
-span{
-    font-weight: 700;
-}
+
+
 #currentdate {
-    color:rgb(50,50,250,1);
+    color:rgb(26, 26, 27);
 }
+
+
+
 
