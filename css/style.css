@@ -14,13 +14,10 @@ header, main, footer {
 }
 
 header, footer {
-    margin: 1rem auto;
-    border: 1px solid #f0f8ff;
-    padding: .4rem;
-    background-color: #4acfee;
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    align-items: center;
+    background-color: rgb(170, 36, 36);
+    color: white;
+    padding: 5px;
+    text-align: center;
 }
  img{
     width: 100px;
