@@ -25,6 +25,10 @@ header, footer {
     float: left;
 }
 
+li {
+    padding: 2px;
+}
+
 
 
 #currentdate {
