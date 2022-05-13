@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media only screen and (min-width: 65em){
+    main{
+        display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    }
+    h2{
+        background-color: rgba(240, 13, 13, 0.842);
+        font-size: 30px;
+    }
+
+    header, footer{
+        background-color: rgba(170, 36, 36);
+        color: white;
+        text-align: center;
+    }
+
+     h1{
+        font-size: 45px;
+        line-height: 1.5em;
+    }
+    
+    
+    footer{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,35 @@
+@media only screen and (min-width: 32.5em){
+    main{
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+
+    h2{
+        background-color: rgba(7, 85, 17, 0.842);
+        font-size: 23px;
+    }
+
+    header{
+        background-color: rgba(216, 196, 15, 0.562);
+    }
+
+    h1{
+        font-size: 37px;
+        line-height: 1.2em;
+    }
+
+    
+
+    footer{
+        background-color: rgba(216, 196, 15, 0.562);
+    }
+    
+    footer{
+        font-size: 17px;
+    }
+    
+
+    p{
+        font-size: 20px;
+    }
+}
