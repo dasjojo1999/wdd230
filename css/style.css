@@ -21,18 +21,26 @@ header, footer {
 }
  img{
     width: 100px;
-    height: auto;
+    height: 90px;
     float: left;
+    object-fit: cover;
 }
+
+
 
 li {
     padding: 2px;
+    margin-right: 20px;
+}
+
+ul{
+    margin-left: 30px;
 }
 
 
 
 #currentdate {
-    color:rgb(26, 26, 27);
+    color:rgb(246, 246, 252);
 }
 
 
