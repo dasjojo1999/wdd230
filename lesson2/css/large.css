@@ -34,12 +34,18 @@
 
     p{
         font-size: 18px;
+        padding: 4px;
     }
 
    
      header, footer, .white-space, .contrast, .repetition {
         border: 1px solid #333;
         box-shadow: 0 0 10px #000;}
+
+    img{
+        margin-left: 80px;
+    }   
+    
 
     
 }
