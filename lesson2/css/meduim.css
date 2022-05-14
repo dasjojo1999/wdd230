@@ -1,6 +1,6 @@
-@media only screen and (min-width: 32.5em){
+@media only screen and (min-width: 37.5em){
     main{
-        display: grid;
+        
     grid-template-columns: 1fr 1fr;
     }
 
@@ -32,4 +32,16 @@
     p{
         font-size: 20px;
     }
+
+    header, footer, .white-space{
+        border: 1px solid #333;
+        box-shadow: 0 0 10px #000;}
+}
+
+.contrast{
+    display: block;
+}
+
+.repetition {
+    grid-column: span 2;
 }

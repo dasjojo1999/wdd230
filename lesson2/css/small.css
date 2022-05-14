@@ -1,6 +1,4 @@
-*{
-    margin: 30px;    
-}
+
 
 header{
     display: block;
@@ -28,8 +26,9 @@ main{
     grid-template-columns: 1fr;
     grid-gap: 3em;
     max-width: 100%;
-    font-family: 'Source Sans Pro', sans-serif;
     margin: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    
     
 }
 
@@ -80,10 +79,16 @@ footer{
     padding: 1em;
 }
 
-.footer-paragraph {
+.footer-paragraph{
     grid-column: 1/4;
     text-align: center;
     margin: auto;
     font-size: 15px;
 }
+
+header, footer, .white-space, .contrast, .repetition {
+    border: 1px solid #333;
+    box-shadow: 0 0 10px #000;}
+
+  
 
