@@ -1,0 +1,101 @@
+header, footer, h2, nav, h3 {
+	font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+article p{
+    font-size: 16px;
+    font-family: "Sansita", Ubuntu, sans-serif;
+
+}
+
+/* phone or baseline views **************************/
+header,
+footer {
+	background-color: #ff8c00;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+header,
+main,
+footer {
+	max-width: 767px;
+	margin: 0 auto;
+}
+h1 {
+	font-size: 1.1rem;
+  text-align: center;
+}
+h2 {
+	color: #536878;
+}
+
+nav {
+	background-color: #FFDB58;
+	margin: 0 auto;
+	max-width: 780px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+}
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	color: #000080;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+	
+}
+
+.active {
+	color: red;
+}
+.wrap {
+	display: grid;
+	font-size: 0.8rem;
+}
+main article {
+	margin: 1rem;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 1rem;
+	background-color: #eee;
+}
+
+main article ul {
+	margin: 1rem 0 0 1rem;
+}
+main picture {
+	display: none;
+	margin: 1rem;
+}
+
+footer p {
+	padding: .5rem;
+}
+
+.text-table-color {
+    border: 1px solid #21287A;
+    width: 50%;
+    margin: auto;
+    margin-top: -50px;
+}
+
+.text-table-typography{
+    border: 1px solid #21287A;
+    width: 50%;
+    margin: auto;
+    margin-top: -40px ;
+}
+
+.text-table-typography td, .text-table-color td{
+    border: 1px solid #6F824B;
+}
