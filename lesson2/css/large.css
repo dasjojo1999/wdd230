@@ -1,49 +1,21 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 
-@media only screen and (min-width: 65em){
-    main{
-        
-    grid-template-columns: 1fr 1fr 1fr;
-    
-    }
-    h2{
-        background-color: rgba(240, 13, 13, 0.842);
-        font-size: 30px;
+@media only screen and (min-width: 60em) {
+	h1 {
+		font-size: 2rem;
+	}
+	
+	main{
+        display: grid;
+		grid-template-columns: 1fr 1fr 1fr;	   
+	}
+
+    article:nth-child(3){
+        grid-column: span 1;
     }
 
-    header, footer{
-        background-color: rgba(170, 36, 36);
-        color: white;
+    footer p{
         text-align: center;
     }
-
-     h1{
-        font-size: 30px;
-        line-height: 1.5em;
-    }
-    
-    
-    footer{
-        font-size: 20px;
-    }
-
-    p{
-        font-size: 18px;
-        padding: 4px;
-    }
-
-   
-     header, footer, .white-space, .contrast, .repetition {
-        border: 1px solid #333;
-        box-shadow: 0 0 10px #000;}
-
-    
-    
-
-    
+	
 }

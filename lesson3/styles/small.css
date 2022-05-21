@@ -97,4 +97,11 @@ footer p {
 
 .text-table-typography td, .text-table-color td{
     border: 1px solid #6F824B;
+	
+
+}
+
+.section-table{
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
 }
