@@ -20,6 +20,12 @@ footer {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.spot1, .spot2, .spot3 {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	justify-items: center;
+	text-align: center;
+}
+
 
 header,
 main,
@@ -80,3 +86,5 @@ main picture {
 footer p {
 	padding: .5rem;
 }
+
+
