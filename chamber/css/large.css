@@ -2,9 +2,7 @@
 	h1 {
 		font-size: 2rem;
 	}
-	nav a {
-		font-size: 1.1rem;
-	}
+	
 	.wrap{
         display: grid;
 		grid-template-columns: 1fr 15rem 15rem 1fr;
@@ -14,8 +12,27 @@
 		max-width: 1080px;
        
 	}
-	
 
+	nav button{
+        display: none;
+        font-size: 2rem;
+    }
+
+    nav ul#primaryNav{
+        display: flex;
+        justify-content: center;
+        margin-left: 2vw;
+    }
+
+    nav ul li a{
+        border: none;
+        font-size: 25px;
+    }
+    
+    nav ul li a{
+        padding: .5rem 1rem;
+    }
+	
 	.event {
 
 		grid-column: 1;
@@ -54,6 +71,21 @@
 	.spotlight{
 		display: grid;
 		grid-template-columns: 1fr;
+	}
+
+
+	header img {
+		width: 100%;
+	}
+
+	.headings h1 {
+		font-size: 2rem;
+		margin: 0;
+	}
+
+	.m {
+		letter-spacing: 1.5pt;
+		font-size: 0.9rem;
 	}
 
 

@@ -1,13 +1,11 @@
-header, footer, h2, nav, h3 {
+
+
+
+header, footer, h2 {
 	font-size: 18px;
     font-family: 'Bebas Neue', cursive;
 }
 
-article p{
-    font-size: 16px;
-    font-family: "Sansita", Ubuntu, sans-serif;
-
-}
 
 header,
 footer {
@@ -15,9 +13,49 @@ footer {
 	display: flex;
 	flex-flow: column;
 	align-items: center;
-	justify-content: center;
-	padding: 10px;
+	justify-content: space-between;
+	padding: 5px 0;
 	border: 1px solid rgba(0, 0, 0, 0.1);
+	margin: 0 auto;
+	
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	margin-left: 1rem;
+}
+
+.logo img {
+	width: 80px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+	margin-left: .5rem;
+}
+
+.headings h1 {
+	font-size: 1.5rem;
+}
+
+.m {
+	letter-spacing: 1pt;
+	color: black;
+	font-weight: 700;
+	font-size: 0.8rem;
+}
+
+.social {
+	margin-left: 38rem;
+	
+}
+
+.social svg {
+	width: 25px;
+	height: auto;
 }
 
 .spot1, .spot2, .spot3 {
@@ -41,29 +79,7 @@ h2 {
 	color: #536878;
 }
 
-nav {
-	background-color: #FFDB58;
-	margin: 0 auto;
-	max-width: 780px;
-	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
-}
-nav ul {
-	list-style-type: none;
-	overflow: hidden;
-}
-nav ul li a {
-	display: block;
-	color: #000080;
-	text-align: center;
-	padding: 0.75rem;
-	text-decoration: none;
-	font-size: 0.95rem;
-	
-}
 
-.active {
-	color: red;
-}
 .wrap {
 	display: grid;
 	font-size: 0.8rem;
@@ -75,16 +91,95 @@ main article {
 	background-color: #eee;
 }
 
-main article ul {
-	margin: 1rem 0 0 1rem;
-}
-main picture {
-	display: none;
-	margin: 1rem;
-}
 
 footer p {
 	padding: .5rem;
 }
+
+.current-date {
+	margin: 0.5rem;
+	border: 1px solid orange;
+	padding: 0.75rem;
+	background-color: orange;
+}
+
+a{
+    text-decoration: none;
+    padding: 1em;
+}
+
+
+nav button{
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: red;
+}
+nav{
+    background-color: #ff8c00;
+    border-radius: 0 0 10px 10px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a{
+    display: block;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid black;
+}
+
+nav ul li.active a{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: whitesmoke;
+}
+
+nav ul li a:hover{
+    background-color: red;
+    color: black;
+}
+
+nav ul{
+    display: none;
+}
+
+nav ul.open{
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(1){
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(2){
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1){
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2){
+    display: block;
+}
+
+.content-main{
+    margin: 1rem;
+    display: block;
+}
+
+.hero:hover, .news:hover, .event:hover, .weather:hover, .join:hover, .spotlight:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+
 
 
