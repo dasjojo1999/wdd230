@@ -20,7 +20,7 @@
 	}
 	
 	.news {
-		grid-template-columns: 1 / 5;
+		grid-column: 1 / 5;
 	}
 
 	.spotlight {
