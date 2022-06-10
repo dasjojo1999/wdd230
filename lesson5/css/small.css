@@ -1,7 +1,7 @@
 
 
 
-header, footer, h2 {
+header, footer, h2{
 	font-size: 18px;
     font-family: 'Bebas Neue', cursive;
 }
@@ -91,6 +91,13 @@ main article {
 	background-color: #eee;
 }
 
+p{
+	color: black;
+	font-size: auto;
+	line-height: 1.2em;
+	text-justify: auto;
+}
+
 
 footer p {
 	padding: .5rem;
@@ -106,6 +113,11 @@ footer p {
 a{
     text-decoration: none;
     padding: 1em;
+}
+
+.hero img{
+	width: 420px;
+	height: 380px;
 }
 
 
@@ -177,7 +189,7 @@ nav ul.open{
 }
 
 .hero:hover, .news:hover, .event:hover, .weather:hover, .join:hover, .spotlight:hover{
-    background-color: black;
+    background-color: #a9a9a9;
     transition: 0.5s;
 }
 
