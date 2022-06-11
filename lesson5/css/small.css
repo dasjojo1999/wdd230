@@ -31,6 +31,16 @@ footer {
 	height: auto;
 }
 
+footer img {
+	width: 90px;
+	height: auto;
+}
+
+.weather img{
+	width: 200px;
+	height: 170px;
+}
+
 .headings {
 	display: flex;
 	flex-direction: column;
