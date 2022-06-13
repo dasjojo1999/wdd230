@@ -16,6 +16,7 @@ footer {
 	justify-content: space-between;
 	padding: 5px 0;
 	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
 	margin: 0 auto;
 	
 }
@@ -32,7 +33,7 @@ footer {
 }
 
 footer img {
-	width: 90px;
+	width: 150px;
 	height: auto;
 }
 
@@ -78,8 +79,10 @@ footer img {
 header,
 main,
 footer {
-	max-width: 767px;
-	margin: 0 auto;
+	margin: 0px;
+	padding: 0px;
+	max-width: 1080px;
+	
 }
 h1 {
 	font-size: 1.1rem;
@@ -88,7 +91,15 @@ h1 {
 h2 {
 	color: #536878;
 }
+.content-footer {
+	text-align: center;
+	align-items: center;
+	display: block;
+	margin: 10px;
+	padding: 10px;
+	margin-top: 20px;
 
+}
 
 .wrap {
 	display: grid;
@@ -97,8 +108,10 @@ h2 {
 main article {
 	margin: 1rem;
 	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
 	padding: 1rem;
-	background-color: #eee;
+	background-color: #eee;	
+	
 }
 
 p{
@@ -112,6 +125,7 @@ p{
 footer p {
 	padding: .5rem;
 }
+
 
 .current-date {
 	margin: 0.5rem;
