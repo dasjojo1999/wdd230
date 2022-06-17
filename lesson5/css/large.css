@@ -89,6 +89,10 @@
 	}
 
 
-
-	
+	.container {
+		margin: 1rem auto;
+		display:grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		max-width: 1048px;
+	}	
 }

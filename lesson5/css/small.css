@@ -217,3 +217,20 @@ nav ul.open{
     transition: 0.5s;
 }
 
+
+ figure img { 
+	width: 250px;
+	height: auto;
+	margin: .5rem;
+}
+figcaption {font-size: smaller;}
+/* hover effect */
+.norm:hover {box-shadow: 0 0 50px #333;}
+
+.container {
+	margin: 1rem auto;
+	display:grid;
+	grid-template-columns: 1fr;
+	max-width: 420px;
+}	
+
