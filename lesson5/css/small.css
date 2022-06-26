@@ -213,19 +213,25 @@ nav ul.open{
 }
 
 .hero:hover, .news:hover, .event:hover, .weather:hover, .join:hover, .spotlight:hover{
-    background-color: #a9a9a9;
+    box-shadow: 0 0 50px #333;
     transition: 0.5s;
 }
 
 
  figure img { 
 	width: 250px;
-	height: auto;
+	height: 250px;
+	margin: .5rem;
+}
+
+.spot1 img, .spot2 img, .spot3 img {
+	width: 180px;
+	height: 180px;
 	margin: .5rem;
 }
 figcaption {font-size: smaller;}
 /* hover effect */
-.norm:hover {box-shadow: 0 0 50px #333;}
+figure img:hover {box-shadow: 0 0 50px #333;}
 
 .container {
 	margin: 1rem auto;
