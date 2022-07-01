@@ -320,3 +320,70 @@ img {
 }
 
 
+
+form {
+	width: 300px;
+	margin: 0;
+	padding: 0;
+}
+
+
+input {
+	
+	padding: .5em;
+	border: solid 1px #999;
+	margin-top: .5em;
+}
+
+input[type*"email"], input[type*"text"] {
+	
+	width: 15em;
+}
+
+
+textarea {
+	resize: vertical;
+	max-height: 100px;
+	padding: .5rem;
+	margin-top: .5em;
+}
+
+fieldset {
+	margin: 2em 0;
+	padding: 1em 2em;
+	border: solid 1px #ccc;
+	border-radius: 6px;
+	max-width: 720px;
+	
+}
+
+legend {
+	font-size: 1.25em;
+	padding: 0 .25em;
+	color: #ccc;
+}
+
+.radio {
+	display:inline-block;
+	padding-top: 0;
+	margin-top: 0;
+	margin-left: 1.5em;
+	margin-right: 0;
+}
+
+fieldset button {
+	padding: .5em 1em;
+	border-radius: 6px;
+	background-color: #333;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-size: .8em;
+	margin-top: .8em;
+}
+
+
+
+
+
+
+

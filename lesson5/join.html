@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Directory | Chamber Of Commerce Professionals Marketing Group</title>
+    <title>Join | Chamber Of Commerce Professionals Marketing Group</title>
 	<meta name="description" content="Activity week 03 - Website Planning Document">
 	<link rel="shortcut icon" href="images/favicon1.ico">
 	<link rel="stylesheet" href="css/normalize.css">
@@ -58,93 +58,44 @@
 		<ul id="primaryNav">
 			<li><a href="index.html">Home</a></li>
 			<li><a href="discover.html">Discovery</a></li>
-			<li class="active"><a href="#">Directory</a></li>
-			<li><a href="join.html">Join Us</a></li>
+			<li><a href="directory.html">Directory</a></li>
+			<li class="active"><a href="#">Join</a></li>
 		</ul>
 	</nav>
 	
 </header>
 
 <main>
-	<div class="menu">
-		<button id="grid">Grid</button>
-		<button id="list">List</button>
-	</div>
-	<hr>
-	<article class="grid">
-		<section>
-			<h2>SOMS Digital Maketing Agency</h2>
-			<h3>Internet Marketing Service</h3>
-			<p>Sandton 011 568 7419</p>
-			<a href="https://www.somsdigital.co.za/" target="_blank">More Info....</a>
-		</section>
 
-		<section>
-			<h2>Atomic Marketing</h2>
-			<h3>Marketing Agency</h3>
-			<p>Johannesburg 011 869 2208</p>
-			<a href="http://www.atomicmarketing.co.za/" target="_blank">More Info....</a>
-		</section>
+    <form action="contactform.html" method="post">
 
-		<section>
-			<h2>Three6ixty Marketing Branding & Events</h2>
-			<h3>Marketing Consultant</h3>
-			<p>Randburg 011 794 6074</p>
-			<a href="https://www.clockworkmedia.co.za/?gclid=Cj0KCQjw8O-VBhCpARIsACMvVLOZPOma1yo7ZwG-k6_ry-iGsCkJSWFuCVnB8ze46sHADvTwcrfRgRgaAn-NEALw_wcB" target="_blank">More Info....</a>
-		</section>
+        <fieldset>
+            <legend>Join Us</legend>
 
-		<section>
-			<h2>Digital Cloud (Pty) Ltd</h2>
-			<h3>Design Agency</h3>
-			<p>Midrand 010 003 7863</p>
-			<a href="https://digitalcloud.co.za/" target="_blank">More Info....</a>
-		</section>
+            <input type="text" name="first-name" placeholder="Enter your name">
 
-		<section>
-			<h2>JQ Digital Marketing</h2>
-			<h3>Marketing</h3>
-			<p>Pretoria 072 352 3598</p>
-			<a href="https://www.juanq.co.za/" target="_blank">More Info....</a>
-		</section>
+            <input type="text" name="last-name" placeholder="Enter your surname">
 
-		<section>
-			<h2>Cognite</h2>
-			<h3>Marketing Services</h3>
-			<p>Sandton 086 100 1975</p>
-			<a href="https://www.cognite.co.za/" target="_blank">More Info...</a>
-		</section>
+            <input type="text" name="number" placeholder="Enter your number">
 
-		<section>
-			<h2>SEOPros</h2>
-			<h3>Marketing SEO</h3>
-			<p>Pretoria 012 942 4885</p>
-			<a href="https://seopros.co.za/" target="_blank">More Info...</a>
-			
-		</section>
+            <input type="text" name="email" placeholder="Enter your email">
 
-		<section>
-			<h2>FGX Studios</h2>
-			<h3>Digital Marketing</h3>
-			<p>Marketing Agency 011 765 2399</p>
-			<a href="https://fgx.co.za/" target="_blank">More Info...</a>
-		</section>
+            <textarea name="message" placeholder="Write a Message.....!"></textarea>
 
-		<section>
-			<h2>Tradeway Promotions</h2>
-			<h3>Promoting Agency</h3>
-			<p>Sandton 011 514 0160</p>
-			<a href="https://www.tradeway.co.za/" target="_blank">More Info...</a>
-		</section>
+            <label>Preferred method of contact:</label>
+            Email: <input type="radio" name="email" value="Email">
 
-		<section>
-			<h2>Joren Communications</h2>
-			<h3>Marketing Agency</h3>
-			<p>Pretoria 012 342 1036</p>
-			<a href="https://joren.digital/" target="_blank">More Info...</a>
-		</section>
-	</article>
+            Phone Call: <input type="radio" name="call" value="Phone Call">
+
+            Text Message: <input type="radio" name="text" value="Text Message">
+
+            <button type="submit" name="button">Submit</button>
+        </fieldset>   
+
+    </form>
+	
+	
 </main>
-
 
 <footer>
 	<div class="content-footer">
