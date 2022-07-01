@@ -384,6 +384,16 @@ fieldset button {
 
 
 
+.register {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+main, footer, header {
+	background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
 
 
 
