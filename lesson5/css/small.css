@@ -1,13 +1,9 @@
 html, body{
-	margin: 0;
+	margin: 0 auto 0 auto;
 	max-width: 100%;
 	max-height: 100%;
 }
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
+
 
 header, footer, h2{
 	font-size: 18px;
@@ -56,6 +52,7 @@ footer img {
 	margin-left: .5rem;
 }
 
+
 .headings h1 {
 	font-size: 1.5rem;
 }
@@ -78,7 +75,7 @@ footer img {
 }
 
 .spot1, .spot2, .spot3 {
-	border: 1px solid rgba(0, 0, 0, 0.1);
+	border: 2px solid black;
 	justify-items: center;
 	text-align: center;
 }
