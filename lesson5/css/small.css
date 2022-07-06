@@ -1,18 +1,31 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    max-width: 100%;
+	margin: auto;
 	
 }
+
+#banner{
+    display: none;
+    margin: 5px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.social img {
+	height: 32px;
+	width: 32px;
+}
+
 
 header, footer, h2{
 	font-size: 18px;
     font-family: 'Bebas Neue', cursive;
 }
 
-
-header,
-footer {
+footer, header {
 	background-color: #ff8c00;
 	display: flex;
 	flex-flow: column;
@@ -20,7 +33,6 @@ footer {
 	justify-content: space-between;
 	padding: 5px 0;
 	border: 1px solid rgba(0, 0, 0, 0.1);
-	border-radius: 20px;
 	margin: 0 auto;
 	
 }
@@ -114,6 +126,23 @@ main article {
 	
 }
 
+.join-us {
+	border: 1px solid #eee;
+	font-size: 40px;
+	background-color: black;
+	padding: 0.5rem;
+	margin: 0.5rem;
+	border-radius: 10px;
+	
+}
+
+.join-us a {
+	color: white;
+}
+li{
+	list-style-type: none;
+}
+
 p{
 	color: black;
 	font-size: 15px;
@@ -126,7 +155,6 @@ footer p {
 	padding: .5rem;
 }
 
-
 a{
     text-decoration: none;
     padding: 1em;
@@ -135,6 +163,7 @@ a{
 .hero img{
 	width: 420px;
 	height: 380px;
+	object-fit: cover;
 }
 
 
@@ -176,28 +205,8 @@ nav ul li a:hover{
     color: white;
 }
 
-nav ul{
+nav ul.hide{
     display: none;
-}
-
-nav ul.open{
-    display: block;
-}
-
-#hamburgerBtn span:nth-child(1){
-    display: block;
-}
-
-#hamburgerBtn span:nth-child(2){
-    display: none;
-}
-
-#hamburgerBtn.open span:nth-child(1){
-    display: none;
-}
-
-#hamburgerBtn.open span:nth-child(2){
-    display: block;
 }
 
 .content-main{
@@ -210,6 +219,9 @@ nav ul.open{
     transition: 0.5s;
 }
 
+figure {
+	padding: 1rem;
+}
 
  figure img { 
 	width: 250px;
@@ -222,15 +234,17 @@ nav ul.open{
 	height: 180px;
 	margin: .5rem;
 }
-figcaption {font-size: smaller;}
+figcaption {font-size: 18px;
+}
 /* hover effect */
 figure img:hover {box-shadow: 0 0 50px #333;}
 
 .container {
-	margin: 1rem auto;
+	margin: 2rem;
 	display:grid;
 	grid-template-columns: 1fr;
 	max-width: 420px;
+	padding: 1rem;
 }	
 
 
@@ -255,6 +269,11 @@ section {
 	margin: 0.75rem;
 }
 
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	align-items: center;
+}
 .grid section {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
@@ -310,14 +329,13 @@ img {
 	max-width: 100%; 
 }
 
-
+/* CONTACT CSS HERE */
 
 form {
 	width: 300px;
-	margin: 0;
-	padding: 0;
+	margin: 0 auto;
+	padding: 0;	
 }
-
 
 input {
 	
@@ -325,12 +343,6 @@ input {
 	border: solid 1px #999;
 	margin-top: .5em;
 }
-
-input[type*"email"], input[type*"text"] {
-	
-	width: 15em;
-}
-
 
 textarea {
 	resize: vertical;
@@ -341,25 +353,16 @@ textarea {
 
 fieldset {
 	margin: 2em 0;
-	padding: 1em 2em;
+	padding: 0.5em 1em;
 	border: solid 1px #ccc;
 	border-radius: 6px;
 	max-width: 720px;
-	
 }
 
 legend {
 	font-size: 1.25em;
 	padding: 0 .25em;
 	color: #ccc;
-}
-
-.radio {
-	display:inline-block;
-	padding-top: 0;
-	margin-top: 0;
-	margin-left: 1.5em;
-	margin-right: 0;
 }
 
 fieldset button {
@@ -386,5 +389,134 @@ main, footer, header {
 	background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
 
+/* --------JOIN PAGE-------- */
 
+.mem-form h2 {
+    color: rgb(232, 232, 232);
+    text-shadow: 2px 4px 4px black;
+    line-height: 1.5rem;
+    padding: 0;
+}
+
+form  fieldset{
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 0.5rem 2% 2rem 2%;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 5px 5px 10px rgb(61, 61, 61);
+  }
+  
+  form legend {
+    color: white;
+    margin: 0 1rem;
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #040404;
+  }
+  
+  
+  form label.sec1 {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size: 0.9rem;
+  }
+  
+  form label.sec1 input,
+  form label.sec1 select, form label.sec1 textarea {
+    display: block;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 0.75rem;
+    color: black;
+    width: 100%;
+    max-width: 45rem;
+    
+  }
+
+  .np {
+    background-color: white;
+  }
+  .bronze {
+    background-color: rgb(205, 127, 50);
+  }
+  .silver {
+    background-color: silver;
+  }
+  .gold {
+    background-color: gold;
+  }
+  
+ 
+  form label.sec1 textarea {
+    height: 8rem;
+  }
+  
+  form button.send {
+    border: none;
+    background-color: #0076B2;
+    color: rgb(255, 255, 255);
+    border-radius: .5rem;
+    padding: 0.75rem 1.5rem;
+    margin: 1.5rem 0 2rem 2%;
+    width: 96%;
+    max-width: 45rem;
+    cursor: pointer;
+    font-size: .9rem;
+    box-shadow: 5px 5px 10px rgb(61, 61, 61);
+  }
+  
+  
+  
+  form label.sec1 input:required:valid {
+    border-left: 10px solid green;
+  }
+
+  .memberships h3 {
+    color: white;
+    margin: 15px 0 0 30px;
+    font-size: 1.5rem;
+}
+
+.memberships div {
+    border: 10px double black;
+    margin: 0 0 15px 30px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgb(61, 61, 61);
+}
+
+.memberships h4 {
+    text-shadow: 3px 3px 5px white;
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+    padding-bottom: 5px;
+}
+
+.memberships p {
+    line-height: 1.1rem;
+    font-style: italic;
+    font-weight: 600;
+    padding: 5px 0 5px;
+}
+
+.memberships ul li {
+    line-height: 1rem;
+    padding: 2px;
+    margin-left: 15px;
+}
+
+#member1 {
+    background-color: white;
+}
+#member2 {
+    background-color: rgb(205, 127, 50);
+}
+#member3 {
+    background-color:silver;
+}
+#member4 {
+    background-color: gold;
+}
 

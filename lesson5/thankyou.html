@@ -45,53 +45,23 @@
 		</a>
 	</div>
 
-	<div id="currentdate"></div>
-
 	<nav>
-		<button id="hamburgerBtn"><span>&#9776;</span><span>X</span>
-		</button>
-		<ul id="primaryNav">
+		<button onclick="toggleMenu()">&#9776;</button>
+		<ul id="primaryNav" class="hide">
 			<li><a href="index.html">Home</a></li>
 			<li><a href="discover.html">Discovery</a></li>
 			<li><a href="directory.html">Directory</a></li>
-			<li class="active"><a href="#">Join</a></li>
-			<li><a href="contact.html">Contact</a></li>
+			<li><a href="join.html">Join</a></li>
+			<li class="active"><a href="contact.html">Contact</a></li>
 		</ul>
 	</nav>
-	
+	<div id="currentdate"></div>
 </header>
 
-<main>
-
-    <form action="#" method="post">
-
-        <fieldset>
-            <legend>Join Us</legend>
-
-            <input type="text" name="first-name" placeholder="Enter your name">
-
-            <input type="text" name="last-name" placeholder="Enter your surname">
-
-            <input type="text" name="number" placeholder="Enter your number">
-
-            <input type="text" name="email" placeholder="Enter your email">
-
-            <textarea name="message" placeholder="Write a Message.....!"></textarea>
-
-            <label>Preferred method of contact:</label>
-            Email: <input type="radio" name="email" value="Email">
-
-            Phone Call: <input type="radio" name="call" value="Phone Call">
-
-            Text Message: <input type="radio" name="text" value="Text Message">
-
-            <button type="submit" name="button">Submit</button>
-        </fieldset>   
-
-    </form>
-
-	
-	
+<main>	
+	<h1>Thank you!!!
+        For Joining Chamber Of Commerce Professional Marketing.
+    </h1>
 </main>
 
 <footer>
@@ -113,7 +83,7 @@
 		</p>
 	</div>
 	
-	<p>&copy;<span id="currentdate"></span>| Job Miguel Da Silva| South Africa</p> 
+	<p>&copy;<span id="year"></span>| Job Miguel Da Silva| South Africa</p> 
 	Last Modified: <span id="update"></span>
 	<br>
 

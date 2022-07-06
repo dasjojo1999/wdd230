@@ -10,13 +10,9 @@ document.getElementById("year").textContent = Year;
 
 //Hamburger Menu
 function toggleMenu(){
-    document.getElementById('primaryNav').classList.toggle('open');
-    document.getElementById('hamburgerBtn').classList.toggle('open');
+    document.getElementById('primaryNav').classList.toggle('hide');
 }
 
-const x = document.getElementById('hamburgerBtn');
-
-x.onclick = toggleMenu;
 
 //Last Modifition
 document.querySelector('#lastModified').textContent = `Last Modification: ${document.lastModified}`;
@@ -38,22 +34,4 @@ close.addEventListener("click", () => {
 })
 
 
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
-const display = document.querySelector("article");
-
-
-
-gridbutton.addEventListener("click", () => {
-	
-	display.classList.add("grid");
-	display.classList.remove("list");
-});
-
-listbutton.addEventListener("click", showList); 
-
-function showList() {
-	display.classList.add("list");
-	display.classList.remove("grid");
-}
 
