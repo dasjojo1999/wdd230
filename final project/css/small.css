@@ -14,7 +14,7 @@ body {
 .container{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/brazil-temple.jpg);
     background-position: center;
     background-size: cover;
     padding-left: 8%;
@@ -95,6 +95,9 @@ button{
     margin-top: 30px;
 
 }
+.active{
+    background-color: #000;
+}
 .card{
     width: 200px;
     height: 230px;
@@ -104,7 +107,7 @@ button{
     box-sizing: border-box;
     cursor: pointer;
     margin: 10px 15px;
-    background-image: url(images\#);
+    background-image: url(images/cardston_alberta_temple);
     background-position: center;
     background-size: cover;
     transition: transform 0.5s;
@@ -141,7 +144,7 @@ h5{
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: #a48f7a;
+    background-color: #999;
     padding: .5rem 2%;
     text-align: center;
 }

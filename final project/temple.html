@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="description" content="Fill Me In">
 <meta name="author" content="John Doe">
-<title>Temple | Temple Inn & Suites</title>
+<title>Home | Temple Inn & Suites</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
@@ -22,22 +22,72 @@
 </head>
 <body>
 <!-- HEADER HERE -->
-	<header>
- <h1>Temple Inn & Suites</h1>
-        <h2>Book your Temple Accommodations</h2>
-    </header>
-    
-    
-<!-- NAVIGATION HERE -->
-    <nav class="clearfix">
-        <ul >
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="temple.html">Temple</a></li>
-            <li><a href="reservation.html">Reservation</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>    
-        </ul>
-    </nav>
+	<div class="container">
+        <div class="navbar">
+            <img src="#" alt="logo image" class="logo">
+            <!-- NAVIGATION HERE -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="temple.html">Temple</a></li>
+                    <li><a href="reservation.html">Reservation</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>    
+                </ul>
+            </nav>
+            <a href="https://facebook.com">
+				<img src="images/facebook.jpg" alt="social media icon" class="social-icon">	
+		    </a>
+            
+
+            <a href="https://twitter.com">
+                <img src="images/twitter.jpg" alt="social media icon" class="social-icon">
+            </a>
+            
+        </div>
+
+        <div class="row">
+           <h1>Temple Inn & Suites</h1>
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ullam sit alias,
+             est quidem numquam maiores
+             ad doloremque ipsum placeat ab id minima! Aliquid placeat ipsam dolores, quas nisi libero?</p>
+            <button type="button">Reservation</button> 
+        </div>
+
+        <div class="col">
+            <div class="card card1">
+                <h5>Western Desert</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Molestiae libero ut, velit optio minus nisi vel laborum hic explicabo aut,
+                     commodi cupiditate labore dolorum tenetur, ipsam impedit? Totam, aperiam porro!</p>
+            </div>
+            <div class="card card2">
+                <h5>AI Bagawat</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Molestiae libero ut, velit optio minus nisi vel laborum hic explicabo aut,
+                     commodi cupiditate labore dolorum tenetur, ipsam impedit? Totam, aperiam porro!</p>
+            </div>
+            <div class="card card3">
+                <h5>Pyramid of Giza</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Molestiae libero ut, velit optio minus nisi vel laborum hic explicabo aut,
+                     commodi cupiditate labore dolorum tenetur, ipsam impedit? Totam, aperiam porro!</p>
+            </div>
+            <div class="card card4">
+                <h5>Kalahari Desert</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Molestiae libero ut, velit optio minus nisi vel laborum hic explicabo aut,
+                     commodi cupiditate labore dolorum tenetur, ipsam impedit? Totam, aperiam porro!</p>
+            </div>                
+        </div>
+
+        <div class="col">
+                
+        </div>
+
+    </div>
+ 
+    <div id="currentdate"></div>
     
     
 <!-- CONTENT HERE -->
@@ -51,7 +101,7 @@
     
 <!-- FOOTER HERE -->   
     <footer>
-        &copy; 2018 &bull; Paul Cheney &bull; 123-555-6789
+        <p>&copy;<span id="year"></span>| Job Miguel Da Silva| South Africa</p>
     </footer>
 <script src="js/scripts.js"></script>
 </body>
