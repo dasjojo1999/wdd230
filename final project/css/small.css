@@ -222,6 +222,9 @@ form label.sec1 input:required:valid {
     margin: 0 auto;
     color: black;
 }
+h2{
+    color: black;
+}
 
 form{
     display: grid;
