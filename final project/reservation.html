@@ -1,30 +1,24 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="description" content="Fill Me In">
-<meta name="author" content="John Doe">
-<title>Home | Temple Inn & Suites</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-
-<!-- STYLE SHEETS -->
-<link href="css/normalize.css" rel="stylesheet">
-<!-- phone-default -->
-<link href="css/small.css" rel="stylesheet">
-<!-- enhance-tablet -->
-<link href="css/medium.css" rel="stylesheet">
-<!-- enhance-desktop -->
-<link href="css/large.css" rel="stylesheet">
-
-
-     
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation | Temple Inn & Suites</title>
+    <link rel="shortcut icon" href="images/favicon (1).ico">
+    <!-- STYLE SHEETS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet">
 </head>
 <body>
-<!-- HEADER HERE -->
-	<div class="container">
+    <div class="container">
         <div class="navbar">
-            <img src="#" alt="logo image" class="logo">
+            <img src="images/logo.png" alt="logo image" class="logo">
             <!-- NAVIGATION HERE -->
             <nav>
                 <ul>
@@ -32,7 +26,7 @@
                     <li><a href="temple.html">Temple</a></li>
                     <li class="active"><a href="reservation.html">Reservation</a></li>
                     <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>    
+                      
                 </ul>
             </nav>
             <a href="https://facebook.com">
@@ -43,66 +37,93 @@
             <a href="https://twitter.com">
                 <img src="images/twitter.jpg" alt="social media icon" class="social-icon">
             </a>
-            
+            <div id="currentdate"></div>
         </div>
-
-        <div class="row">
-           <h1>Temple Inn & Suites</h1>
-           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ullam sit alias,
-             est quidem numquam maiores
-             ad doloremque ipsum placeat ab id minima! Aliquid placeat ipsam dolores, quas nisi libero?</p>
-            <button type="button">Reservation</button> 
-        </div>
-
-        <div class="col">
-            <div class="card card1">
-                <h5>Western Desert</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Molestiae libero ut, velit optio minus nisi vel laborum hic explicabo aut,
-                     commodi cupiditate labore dolorum tenetur, ipsam impedit? Totam, aperiam porro!</p>
-            </div>
-            <div class="card card2">
-                <h5>AI Bagawat</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Molestiae libero ut, velit optio minus nisi vel laborum hic explicabo aut,
-                     commodi cupiditate labore dolorum tenetur, ipsam impedit? Totam, aperiam porro!</p>
-            </div>
-            <div class="card card3">
-                <h5>Pyramid of Giza</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Molestiae libero ut, velit optio minus nisi vel laborum hic explicabo aut,
-                     commodi cupiditate labore dolorum tenetur, ipsam impedit? Totam, aperiam porro!</p>
-            </div>
-            <div class="card card4">
-                <h5>Kalahari Desert</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Molestiae libero ut, velit optio minus nisi vel laborum hic explicabo aut,
-                     commodi cupiditate labore dolorum tenetur, ipsam impedit? Totam, aperiam porro!</p>
-            </div>                
-        </div>
-
-        <div class="col">
+        <div class="reservation-container">
+                <div class="reservation-time">
+                <h2 class="heading"> Time open</h2>
+                <h3 class="heading-days">Monday-Friday</h3>
+                <p>7:30am-7pm</p>
                 
+
+                <h3 class="heading-days">Saturday</h3>
+                <p>8am-1pm</p>
+                
+
+                <hr>
+
+                <h4 class="heading-phone"> Call Us: (+246) 39-30-677</h4>
+
+            </div>
+            <div class="reservation-form">
+                <form action="thanks.html">
+                    <h2 class="heading heading-yellow">Book Reservation</h2>
+                
+                    <div class="form-field">
+                        <p>Enter Name:</p>
+                        <input type="text" required placeholder="your name">
+                    </div>
+                    <div class="form-field">
+                        <p>Enter Email:</p>
+                        <input type="email" required placeholder="your email">
+                    </div>
+                    <div class="form-field">
+                        <p>Enter Number:</p>
+                        <input type="number" required placeholder="your phone number">
+                    </div>
+                    <div class="form-field">
+                        <p>Enter Country:</p>
+                        <input type="text" required placeholder="your country">
+                    </div>
+                    <div class="form-field">
+                        <p>Date:</p>
+                        <input type="date" required placeholder="#">
+                    </div>
+                    <div class="form-field">
+                        <p>Location:</p>
+                        <input type="text" required placeholder="your location">
+                    </div>
+                    <div class="form-field">
+                        <p>Time:</p>
+                        <input type="time" required placeholder="your name">
+                    </div>
+                    <div class="form-field">
+                        <p>Type of rooms:</p>
+                        <select name="select" id="#">
+                            <option value="1">1 person room</option>
+                            <option value="2">2 person room</option>
+                            <option value="3">3 person room</option>
+                            <option value="4">4 person room</option>
+                            <option value="5">5 person room</option>
+                            <option value="5+">5+ person room</option>   
+                        </select>
+                    <div class="message">
+                        <textarea name="message" placeholder="Write a Message.....!"></textarea>
+                    </div>      
+                    </div>
+                    <button class="btn">Book Reservation</button>
+
+                </form>
+
+            </div>
         </div>
+
+        
 
     </div>
- 
-    <div id="currentdate"></div>
-    
-    
-<!-- CONTENT HERE -->
-<main>
-    <h1>Course Proposal Application</h1>
-        
-
-          
-        
-    </main>
-    
-<!-- FOOTER HERE -->   
+    <!--FOOTER-->
     <footer>
-        <p>&copy;<span id="year"></span>| Job Miguel Da Silva| South Africa</p>
+        <p>&copy;<span id="year"></span>| Job Miguel Da Silva| South Africa</p> 
+	    <p>Last Modified:</p> <span id="update"></span>
+	    <br>
+        <h3>Call Us:</h3>
+        <p>(+246) 39-30-677</p>
+        <h3>Address:</h3>
+        <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+        <a class="location" target="_blank" href="https://goo.gl/maps/cx84WeP6AqzNVUX99"> GOOGLE MAPS LOCATION</a>
     </footer>
-<script src="js/scripts.js"></script>
+    <!--JAVASCRIPT LINK-->
+    <script src="js/scripts.js"></script>
+    
 </body>
 </html>
